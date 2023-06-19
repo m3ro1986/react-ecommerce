@@ -1,0 +1,25 @@
+.form-container {
+    margin: 0.2em;
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    border-radius: 1em;
+    overflow: hidden;
+    color: white;
+}
+
+.form-container input {
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: inherit;
+    color: inherit;
+}
+
+.form-container button {
+    background-color: inherit;
+    border: none;
+    padding-right: 0.5em;
+    color: inherit;
+}

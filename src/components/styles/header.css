@@ -1,0 +1,59 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 1em;
+}
+
+@media screen and ( max-width: 425px ){
+    .header {
+        display: flex;
+        flex-direction: column;
+        & section {
+            display: flex;
+            justify-content: space-between;
+            & article {
+                display: flex;
+                gap: 0.5em;
+                & form {
+                    display: none;
+                }
+            };
+            & ul {
+                list-style: none;
+                display: flex;
+                gap: 1em;
+                & li {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }  
+}
+
+@media screen and ( min-width: 426px ){
+    .header {
+        display: flex;
+        flex-direction: column;
+        & section {
+            display: flex;
+            justify-content: space-between;
+            & article {
+                display: flex;
+                gap: 0.5em;
+            };
+            & ul {
+                list-style: none;
+                display: flex;
+                gap: 1em;
+                & li {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        };
+        & footer {
+            display: none;
+        }
+    }  
+}

@@ -1,0 +1,36 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 1em;
+}
+
+.product-card header {
+    border-bottom: 1px solid grey;
+    margin: 0.5em;
+}
+
+.product-card img {
+    width: 100%;
+    aspect-ratio: 1.5;
+    padding: 0.5em;
+}
+
+.product-card main {
+    display: flex;
+    padding: 0.5em;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 1em;
+}
+
+.product-card footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & i {
+        font-size: 2.5em;
+    }
+}

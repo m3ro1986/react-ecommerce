@@ -1,0 +1,42 @@
+.product-data {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+
+.product-data p {
+    line-height: 1.5;
+    text-align: justify;
+}
+.product-data > footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.product-data section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-data section > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-data section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    & ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        & li {
+            padding: 0 1em;
+        }
+    }
+}
