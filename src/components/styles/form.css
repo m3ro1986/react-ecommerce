@@ -1,5 +1,6 @@
 .form-container {
     margin: 0.2em;
+    padding: 0.2em;
     display: flex;
     background-color: rgb(117, 117, 117);
     border-radius: 1em;

@@ -15,9 +15,9 @@ const ProductData = ({product}) => {
                     <div>
                         <span>Quantity</span>
                         <ul>
-                            <li>-</li>
+                            <li><i className='bx bxs-minus-circle'></i></li>
                             <li>1</li>
-                            <li>+</li>
+                            <li><i className='bx bxs-plus-circle'></i></li>
                         </ul>
                     </div>
                 </section>

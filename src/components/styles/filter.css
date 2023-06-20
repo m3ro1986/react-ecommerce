@@ -1,0 +1,27 @@
+.filter {
+    position: fixed;
+    width: 320px;
+    top: 0;
+    height: 100vh;
+    background-color: aqua;
+    padding: 2em;
+}
+
+.filter ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.hide {
+    right: -320px;
+    transition: 600ms;
+}
+
+.show {
+    right: 0;
+    transition: 600ms;
+}

@@ -2,17 +2,20 @@
     position: fixed;
     width: 100%;
     padding: 1em;
+
 }
 
 @media screen and ( max-width: 425px ){
     .header {
         display: flex;
         flex-direction: column;
+        gap: 0.5em;
         & section {
             display: flex;
             justify-content: space-between;
             & article {
                 display: flex;
+                align-items: center;
                 gap: 0.5em;
                 & form {
                     display: none;
@@ -40,6 +43,7 @@
             justify-content: space-between;
             & article {
                 display: flex;
+                align-items: center;
                 gap: 0.5em;
             };
             & ul {
